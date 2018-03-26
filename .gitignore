@@ -1,0 +1,5 @@
+.pytest_cache/
+*__pycache__*
+*.log
+requirements_dev.txt
+setup_path.fish

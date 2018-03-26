@@ -1,0 +1,7 @@
+flask
+pytest
+pyyaml
+flask_json
+pytest-flask
+invoke
+requests
