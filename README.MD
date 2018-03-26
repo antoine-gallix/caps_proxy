@@ -22,7 +22,7 @@ It makes use of the application factory pattern in `app.py`. The caps service co
 
 Start a new virtualenv with python 3 and install requirements:
 
-    invoke setup
+    pip install -r requirements
 
 ## Run Tests
 

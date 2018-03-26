@@ -4,15 +4,9 @@ import os
 
 
 @task
-def setup(ctx):
-    """setup"""
-    command = 'pip install -r requirements.txt'
-    ctx.run(command)
-
-
-@task
 def tests(ctx):
     """run tests"""
+    # add project to python path for the tests to be able to import the app.
     here = Path(__file__).resolve().parent
     os.environ['PYTHONPATH'] = str(here)
     command = 'py.test'
